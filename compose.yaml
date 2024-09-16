@@ -1,9 +1,29 @@
+version: '3'
+
+volumes:
+  mongo_db:
+
 services:
-  mongodb:
-    image: 'mongo:latest'
+
+  mongo_database:
+    image: mongo
     environment:
-      - 'MONGO_INITDB_DATABASE=mydatabase'
-      - 'MONGO_INITDB_ROOT_PASSWORD=secret'
-      - 'MONGO_INITDB_ROOT_USERNAME=root'
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    volumes:
+      - mongo_db:/data/db
     ports:
-      - '27017'
+      - "27017:27017"
+
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    depends_on:
+      - mongo_database
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_ADMIN_USERNAME=root
+      - ME_CONFIG_MONGODB_ADMIN_PASSWORD=password
+      - ME_CONFIG_MONGODB_URL=mongodb://root:password@mongo_database:27018/
