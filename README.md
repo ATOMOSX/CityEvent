@@ -21,13 +21,13 @@ CityEvent es una plataforma diseñada para facilitar la compra de entradas a eve
 ## Instalación
 
 1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/cityEvent.git
-  ``
+      ```bash
+         git clone https://github.com/ATOMOSX/cityEvent.git
+      ```
 2. Levanta el contenedor de MongoDB con Docker:
-  ```bash
-   git clone https://github.com/tu-usuario/cityEvent.git
-  ```
+     ```bash
+      git clone https://github.com/ATOMOSX/cityEvent.git
+     ```
 3. Configura las credenciales de Cloudinary en el archivo de configuración (src/main/resources/application.yml o .properties):
      ```bash
    cloudinary:
