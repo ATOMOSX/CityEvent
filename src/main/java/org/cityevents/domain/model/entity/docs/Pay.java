@@ -1,29 +1,29 @@
-package org.cityevents.domain.model.docs;
+package org.cityevents.domain.model.entity.docs;
 
 import lombok.*;
-import org.bson.types.ObjectId;
-import org.cityevents.domain.model.subdocs.DetailCart;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
-import java.util.List;
 
-@Document(collection = "Carrito de Compras")
+@Document(collection = "Pagos")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @ToString
+@Builder
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class ShoppingCart implements Serializable {
-
+public class Pay implements Serializable {
 
     @Id
     @EqualsAndHashCode.Include
     private String id;
-    private List<DetailCart> items;
+    private String currency;
+    private String paymentMethod;
+    private String detailPayment;
+    private String codeAuthorization;
     private String date;
-    private ObjectId userId;
+    private String transactionValue;
+    private String status;
 }

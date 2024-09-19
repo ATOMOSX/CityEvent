@@ -1,4 +1,4 @@
-package org.cityevents.domain.model.docs;
+package org.cityevents.domain.model.entity.docs;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

@@ -1,8 +1,8 @@
-package org.cityevents.domain.model.docs;
+package org.cityevents.domain.model.entity.docs;
 
 import lombok.*;
 import org.bson.types.ObjectId;
-import org.cityevents.domain.model.subdocs.DetailOrder;
+import org.cityevents.domain.model.entity.subdocs.DetailOrder;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

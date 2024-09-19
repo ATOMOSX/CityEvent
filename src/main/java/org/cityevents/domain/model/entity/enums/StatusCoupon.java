@@ -1,4 +1,4 @@
-package org.cityevents.domain.model.enums;
+package org.cityevents.domain.model.entity.enums;
 
 public enum StatusCoupon {
     AVAILABLE,

@@ -1,6 +1,6 @@
-package org.cityevents.domain.port;
+package org.cityevents.domain.port.repository;
 
-import org.cityevents.domain.model.docs.Account;
+import org.cityevents.domain.model.entity.docs.Account;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

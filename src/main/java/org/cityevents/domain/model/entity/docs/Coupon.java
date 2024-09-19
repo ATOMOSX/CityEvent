@@ -1,8 +1,8 @@
-package org.cityevents.domain.model.docs;
+package org.cityevents.domain.model.entity.docs;
 
 import lombok.*;
-import org.cityevents.domain.model.enums.CouponType;
-import org.cityevents.domain.model.enums.StatusCoupon;
+import org.cityevents.domain.model.entity.enums.StatusCoupon;
+import org.cityevents.domain.model.entity.enums.CouponType;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

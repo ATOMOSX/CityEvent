@@ -1,9 +1,9 @@
-package org.cityevents.domain.model.docs;
+package org.cityevents.domain.model.entity.docs;
 
 import lombok.*;
-import org.cityevents.domain.model.enums.EventState;
-import org.cityevents.domain.model.enums.TypeEvent;
-import org.cityevents.domain.model.subdocs.Locality;
+import org.cityevents.domain.model.entity.enums.EventState;
+import org.cityevents.domain.model.entity.enums.TypeEvent;
+import org.cityevents.domain.model.entity.subdocs.Locality;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

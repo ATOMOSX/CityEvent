@@ -1,4 +1,4 @@
-package org.cityevents.domain.model.subdocs;
+package org.cityevents.domain.model.entity.subdocs;
 
 import lombok.*;
 
