@@ -1,4 +1,4 @@
-package org.cityevents.domain.port.repository;
+package org.cityevents.infrastructure.repository;
 
 import org.cityevents.domain.model.entity.docs.ShoppingCart;
 import org.springframework.data.mongodb.repository.MongoRepository;

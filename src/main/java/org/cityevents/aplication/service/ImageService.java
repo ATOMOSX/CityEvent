@@ -1,4 +1,4 @@
-package org.cityevents.aplication.port.in.cloudinary;
+package org.cityevents.aplication.service;
 
 import org.cityevents.infrastructure.exceptions.images.DeleteImageException;
 import org.cityevents.infrastructure.exceptions.images.UploadImageException;
