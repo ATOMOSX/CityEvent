@@ -1,4 +1,4 @@
-package org.cityevents.aplication.dto.in;
+package org.cityevents.aplication.dto.in.user;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
