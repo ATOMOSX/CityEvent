@@ -1,7 +1,7 @@
 package org.cityevents.aplication.service;
 
-import org.cityevents.infrastructure.exceptions.images.DeleteImageException;
-import org.cityevents.infrastructure.exceptions.images.UploadImageException;
+import org.cityevents.infrastructure.exceptions.out.images.DeleteImageException;
+import org.cityevents.infrastructure.exceptions.out.images.UploadImageException;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

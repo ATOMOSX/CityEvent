@@ -3,8 +3,8 @@ package org.cityevents.domain.port.in.user;
 import org.cityevents.aplication.dto.in.user.UserRegisterDTO;
 import org.cityevents.aplication.dto.in.user.UserUpdateDTO;
 import org.cityevents.domain.model.entity.docs.User;
-import org.cityevents.infrastructure.exceptions.user.management.UserAlreadyExistException;
-import org.cityevents.infrastructure.exceptions.user.management.UserNotFoundException;
+import org.cityevents.infrastructure.exceptions.in.UserAlreadyExistException;
+import org.cityevents.infrastructure.exceptions.in.UserNotFoundException;
 
 import java.util.List;
 

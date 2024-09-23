@@ -1,4 +1,4 @@
-package org.cityevents.infrastructure.exceptions.images;
+package org.cityevents.infrastructure.exceptions.out.images;
 
 public class DeleteImageException extends Exception{
     public DeleteImageException(String message) {

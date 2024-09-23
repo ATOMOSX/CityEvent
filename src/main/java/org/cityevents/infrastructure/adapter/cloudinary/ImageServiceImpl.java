@@ -3,8 +3,8 @@ package org.cityevents.infrastructure.adapter.cloudinary;
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
 import org.cityevents.aplication.service.ImageService;
-import org.cityevents.infrastructure.exceptions.images.DeleteImageException;
-import org.cityevents.infrastructure.exceptions.images.UploadImageException;
+import org.cityevents.infrastructure.exceptions.out.images.DeleteImageException;
+import org.cityevents.infrastructure.exceptions.out.images.UploadImageException;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

@@ -1,4 +1,4 @@
-package org.cityevents.infrastructure.exceptions.images;
+package org.cityevents.infrastructure.exceptions.out.images;
 
 import java.io.IOException;
 
