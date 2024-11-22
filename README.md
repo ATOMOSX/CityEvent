@@ -20,7 +20,7 @@ CityEvent es una plataforma diseñada para facilitar la compra de entradas a eve
 
 ## Instalación
 
-1. Clona este repositorio:
+1. Clona este repositorio y colabroa:
       ```bash
          git clone https://github.com/ATOMOSX/cityEvent.git
       ```
